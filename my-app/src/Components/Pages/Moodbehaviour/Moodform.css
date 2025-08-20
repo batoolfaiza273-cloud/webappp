@@ -1,10 +1,10 @@
 .button-28 {
  appearance: none;
   background-color: transparent;
-  border: 2px solid brown;
+  border: 2px solid #AF3E3E;
   border-radius: 15px;
   box-sizing: border-box;
-  color: brown;
+  color: #AF3E3E;
   cursor: pointer;
   display: inline-block;
   font-size: 16px;

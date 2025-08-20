@@ -1,4 +1,3 @@
-// src/Components/Logging.js
 import React, { useState } from "react";
 import Navbar from "../Frontend/Navbar";
 import { FaFacebookF } from "react-icons/fa";
@@ -36,7 +35,7 @@ export default function Logging() {
 
   return (
     <>
-      <Navbar />
+     <Navbar />
       <div className="login-container">
         <form onSubmit={handleSubmit} className="login-form">
           <h2>Family Member Login</h2>
@@ -65,7 +64,7 @@ export default function Logging() {
             type="button"
             style={{
               background: "#EAEBD0",
-              color: "brown",
+              color: "#AF3E3E",
               padding: "8px 16px",
               marginTop: "10px",
               border: "none",

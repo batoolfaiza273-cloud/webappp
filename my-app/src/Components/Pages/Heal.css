@@ -1,0 +1,101 @@
+.about-container {
+  padding: 20px;
+}
+
+.about-heading {
+  font-weight: bold;
+  padding: 20px 0 10px 50px;
+  color: skyblue;
+  font-size: 25px;
+}
+
+.about-subtext {
+  color: burlywood;
+  padding-left: 50px;
+  width: 500px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Bootstrap Cards Styling */
+.about-card-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.about-card-outer {
+  width: 100%;
+  max-width: 63rem;
+  border: none !important;
+}
+
+.about-card-inner {
+  width: 100%;
+  max-width: 57rem;
+  margin: 0 auto;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  padding: 20px;
+}
+
+.section-heading {
+  font-weight: bold;
+  color: skyblue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.about-text-card {
+  width: 100%;
+  max-width: 50rem;
+  font-size: 16px;
+  color: brown;
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Responsiveness */
+@media (max-width: 900px) {
+  .about-subtext {
+    width: 90%;
+    padding-left: 20px;
+    font-size: 18px;
+  }
+
+  .about-card-inner {
+    max-width: 90%;
+  }
+
+  .about-text-card {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-heading {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
+  .about-subtext {
+    font-size: 16px;
+    padding-left: 20px;
+  }
+
+  .about-card-inner {
+    padding: 15px;
+  }
+
+  .section-heading {
+    font-size: 18px;
+  }
+
+  .about-text-card {
+    font-size: 14px;
+  }
+}
+
+

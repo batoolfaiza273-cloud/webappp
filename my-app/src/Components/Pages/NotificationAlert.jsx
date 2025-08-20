@@ -22,6 +22,8 @@ const NotificationAlert = () => {
           style={{
             width: "100%",
             border: "none",
+            color:"#AF3E3E",
+            backdropColor:"#EAEBD0",
             boxShadow: "0 0 10px rgba(0, 123, 255, 0.3)",
             padding: "20px",
           }}
@@ -29,7 +31,7 @@ const NotificationAlert = () => {
           <h4 style={{ fontWeight: "bold", color: "skyblue", marginBottom: "16px" }}>
             About HealSync
           </h4>
-          <Card style={{ border: "none", color: "brown", fontSize: "16px" }}>
+          <Card style={{ border: "none", color: "#AF3E3E", fontSize: "16px" }}>
             <p>
               HealSync is a smart healthcare platform designed to help families keep their loved ones
               safe, healthy, and comfortable at home. We understand that many people prefer to receive

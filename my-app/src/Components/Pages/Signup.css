@@ -43,7 +43,7 @@
   width: 100%;
   padding: 10px;
   background: #EAEBD0;
-  color: brown;
+  color: #AF3E3E;
   border: none;
   border-radius: 6px;
   cursor: pointer;
@@ -51,7 +51,7 @@
 }
 
 .signup-form button:hover {
-  background: brown;
+  background: #AF3E3E;
   color: #EAEBD0;
 }
 

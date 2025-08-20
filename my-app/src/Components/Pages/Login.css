@@ -7,19 +7,19 @@
     padding-top: 100px;
 }
 .log .box1{
-    border: 2px solid brown;
+    border: 2px solid #AF3E3E;
 }
 
 .log .box1 .p {
     font-weight: bold;
     padding-left: 30px;
-    color: brown;
+    color: #AF3E3E;
     
 }
 .log .box1 .f {
     font-weight: bold;
     padding-left: 65px;
-    color: brown;
+    color: #AF3E3E;
 }
 .box1:hover{
     background-color: #EAEBD0;

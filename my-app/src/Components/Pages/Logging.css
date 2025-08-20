@@ -13,7 +13,7 @@
   border: 1px solid #EAEBD0;
   outline: none;
   background-color: #EAEBD0;
-  color: brown;
+  color: #AF3E3E;
   text-decoration: none; 
 }
 
@@ -60,7 +60,7 @@
 .login-form button {
   padding: 0.7rem;
   background: #EAEBD0;
-  color: brown;
+  color: #AF3E3E;
   border: none;
   border-radius: 5px;
   cursor: pointer;

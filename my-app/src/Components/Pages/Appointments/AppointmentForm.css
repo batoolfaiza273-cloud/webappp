@@ -1,3 +1,68 @@
+.fr{
+  margin-bottom:30px;
+  margin-top: 30px;
+  padding:15px;
+  background-color:#EAEBD0;
+  border:1px solid #AF3E3E;
+  border-radius:6px;
+   box-shadow:0 0 10px rgba(0, 123, 255, 0.5);
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  cursor: pointer;
+
+}
+.fr:hover{
+   transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.fg{
+  padding-left:20px;
+  margin:7px;
+  color:#AF3E3E;
+}
+.fi{
+  border:2px solid #EAEBD0;
+  border-radius:2px;
+  background-color:#AF3E3E;
+  color:#EAEBD0;
+  padding-bottom:8px;
+}
+.fl{
+  padding-left:20px;
+  margin:7px;
+  color:#AF3E3E;
+}
+.fo{
+  border:2px solid #EAEBD0;
+  border-radius:2px;
+  background-color:#AF3E3E;
+  color:#EAEBD0;
+  padding-bottom:8px
+} 
+.fd{
+  padding-left:20px;
+  margin:7px;
+  color:#AF3E3E;
+}
+.fj{
+  border:2px solid #EAEBD0;
+  border-radius:2px;
+  background-color:#AF3E3E;
+  color:#EAEBD0;
+  padding-bottom:8px;
+}
+.fk{
+  padding-left:20px;
+  margin:7px;
+  color:#AF3E3E;
+}
+.ft{
+  border:2px solid #EAEBD0;
+  border-radius:2px;
+  background-color:#AF3E3E;
+  color:#EAEBD0;
+  padding-bottom:8px;
+} 
 .button-62 {
   background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
   border: 0;

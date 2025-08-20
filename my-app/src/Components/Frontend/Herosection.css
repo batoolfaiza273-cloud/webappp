@@ -31,3 +31,31 @@
     font-size:14px;
     color: #AF3E3E;
 }
+@media screen and (max-width: 960px){
+    .container {
+        flex-direction: column; 
+        text-align: center;
+    }
+    .section-hero-image {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .section-hero-image img {
+        width: 80%; /* shrink image */
+        max-width: 300px; /* prevent it from being too big */
+        height: auto;
+    }
+    
+    .section-hero-data {
+        margin-top: 40px; 
+    }
+
+    .hero-heading {
+        font-size: 24px;
+    }
+
+    .container .section-hero-data .hero-para {
+        font-size: 13px;
+    }
+}

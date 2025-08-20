@@ -1,4 +1,3 @@
-// src/Health/HealthStatus.jsx
 import React from 'react';
 
 const HealthStatus = ({ records }) => {
@@ -14,8 +13,8 @@ const HealthStatus = ({ records }) => {
   const latest = records[0]; // Most recent entry
 
   return (
-    <div style={{ backgroundColor: "#EAEBD0", padding: "10px" }}>
-      <h3 style={{ color: "brown" }}>Latest Health Status</h3>
+  <div style={{ backgroundColor: "#EAEBD0", padding: "10px" }}>
+      <h3 style={{ color: "#AF3E3E" }}>Latest Health Status</h3>
       <p>BP: {latest.systolic}/{latest.diastolic} mmHg</p>
       <p>Weight: {latest.weight} kg</p>
       <p>Glucose: {latest.glucose} mg/dL</p>

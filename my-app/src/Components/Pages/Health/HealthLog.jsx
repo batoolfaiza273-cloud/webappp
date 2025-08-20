@@ -1,19 +1,18 @@
-// src/Health/HealthLog.jsx
 import React from 'react';
 
 const HealthLog = ({ records }) => {
   return (
-    <div style={{ backgroundColor: "#EAEBD0", fontWeight: "bold", padding: "10px" }}>
-      <h3>Health Log</h3>
+   <div style={{ backgroundColor: "#EAEBD0", fontWeight: "bold", padding: "10px" }}>
+      <h3 style={{fontWeight:"bold"}}>Health Log</h3>
       {records.length === 0 ? (
-        <p style={{ color: "brown" }}>No records yet.</p>
+        <p style={{ color: "#AF3E3E",paddingLeft:"55px" }}>No records yet.</p>
       ) : (
         records.map((r) => (
           <div
             key={r.id}
             style={{
               border: '2px solid #EAEBD0',
-              backgroundColor: "brown",
+              backgroundColor: "#AF3E3E",
               marginBottom: '10px',
               padding: '8px'
             }}

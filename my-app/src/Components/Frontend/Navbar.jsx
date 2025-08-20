@@ -65,7 +65,18 @@ const Navbar = () => {
               onClick={handleClick}
               
               >
-                Login To Heal Sync
+                Login
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink 
+              exact to ='/chatbot'
+              activeClassName = 'active'
+              className='nav-links'
+              onClick={handleClick}
+              
+              >
+                Chatbot
               </NavLink>
             </li>
           </ul>

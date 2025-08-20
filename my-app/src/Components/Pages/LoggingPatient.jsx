@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { loginUser } from "../../utils/authService";
-
-import Navbar from '../Frontend/Navbar';
 import './Logging.css';
+import Navbar  from '../Frontend/Navbar';
 import { FaFacebookF } from "react-icons/fa";
 import { CiTwitter } from "react-icons/ci";
 import { FaGoogle } from "react-icons/fa";
@@ -24,18 +23,18 @@ const LoggingPatient = () => {
       localStorage.setItem("token", response.token);
       localStorage.setItem("role", "patient");
       
-      alert("✅ Login successful!");
+      alert("Login successful!");
       navigate("/"); // redirect after login
     } catch (error) {
       console.error("Login error:", error);
-      alert(error.response?.data?.message || "❌ Login failed");
+      alert(error.response?.data?.message || " Login failed");
     }
   };
 
   return (
     <>
       <Navbar />
-      <div className="login-container">
+     <div className="login-container">
         <form onSubmit={handleSubmit} className="login-form">
           <h2>Patient Login</h2>
 

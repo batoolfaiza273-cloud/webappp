@@ -3,8 +3,6 @@ import './Dashboard.css'
 import {  NavLink } from 'react-router-dom';
 import Carousel from 'react-bootstrap/Carousel';
 import react from '../../Assets/react.avif';
-
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import mindfulness from '../../Assets/mindfulness.png';
 import healthcare from '../../Assets/healthcare.png';
@@ -14,35 +12,28 @@ import planning from '../../Assets/planning.png';
 import predict from '../../Assets/predict.png';
 
 const Dashboard = () => {
-     const handleClick = () => {
-    console.log("Button clicked!");
-      };
-
-    
   return (
     <>
-    <NavLink to="/">
-             <button  onClick={handleClick}  class="button-52" >Go To Heal Sync</button>
-             </NavLink>
+    
 
-             <h3 style={{fontWeight:"bold",fontSize:"30px" ,marginLeft:"350px",marginBottom:"20px" ,marginTop:"20px"}}>Heal Sync Feature</h3>
+             <h3  className="dashboardh">Heal Sync Feature</h3>
     <div>
-         <Card style={{ width: '63rem',height:"40rem",marginBottom:"30px",border:"none"}}>
-            <Card style={{ width: '57rem',height:"38rem",marginLeft:"45px",boxShadow:"0 0 10px rgba(0, 123, 255, 0.5)"}}>
+         <Card className="dashboradcard1" >
+            <Card className="dashboradcard2">
                 <div className="abouts">
-                    <div>
-                        <Card style={{width:"50rem" ,fontSize:"16px",color:"brown",border:"none"}}>
+                    <div className="aboutssss">
+                        <Card className="dashboardcards3">
                         
 
                          <div  className="dash1">
           <div >
           <NavLink to="/resourcecenter">
-          <button  style={{fontWeight:"bold " ,fontSize:"18px"}}  class="button-48" ><span class="text">Resource Center</span></button> 
+          <button  class="button-48" ><span class="text">Resource Center</span></button> 
           </NavLink>
        </div>
        <div >
            <NavLink to="/healthmontorning">
-          <button style={{fontWeight:"bold " ,fontSize:"18px"}} class="button-48" ><span class="text">Health Montorning</span></button>
+          <button  class="button-48" ><span class="text">Health Montorning</span></button>
            </NavLink>
        </div>
        </div>
@@ -50,12 +41,12 @@ const Dashboard = () => {
        <div className="dash2">
        <div>
           <NavLink to="/location">
-          <button style={{fontWeight:"bold " ,fontSize:"18px"}} class="button-48"  ><span class="text">Live Location Tracking</span></button>
+          <button  class="button-48"  ><span class="text">Live Location Tracking</span></button>
           </NavLink>
        </div> 
        <div >
            <NavLink to="/task">
-          <button style={{fontWeight:"bold " ,fontSize:"18px"}} class="button-48"><span class="text">Task Plan & Management</span></button>
+          <button class="button-48"><span class="text">Task Plan & Management</span></button>
            </NavLink>
        </div>
     </div>
@@ -63,18 +54,18 @@ const Dashboard = () => {
     <div className="dash3">
     <div>
      <NavLink to="/mood">
-     <button style={{fontWeight:"bold " ,fontSize:"18px"}} class="button-48" ><span class="text">Mood Behaviour & Tracking</span></button>
+     <button  class="button-48" ><span class="text">Mood Behaviour & Tracking</span></button>
      </NavLink>
     </div>
     <div>
      <NavLink to="/progress">
-     <button style={{fontWeight:"bold " ,fontSize:"18px"}} class="button-48"  ><span class="text">Progress Tracking & Reports</span></button>
+     <button  class="button-48"  ><span class="text">Progress Tracking & Reports</span></button>
      </NavLink>
     </div>
     </div>
      <div className="dash4">
            <NavLink to="/calender">
-          <button style={{fontWeight:"bold " ,fontSize:"18px"}} class="button-48"><span class="text">Shared Calendars & Appointment</span></button>
+          <button  class="button-48"><span class="text">Shared Calendars & Appointment</span></button>
           </NavLink>
         </div>
                        
@@ -109,7 +100,7 @@ const Dashboard = () => {
 
 <div className="car">
      
-      <h2 className="hi" style={{paddingLeft:"290px" ,paddingBottom:"20px"}}>Your Health, Always Connected</h2>
+      <h2 className="hi" style={{paddingLeft:"40px" ,paddingBottom:"20px"}}>Your Health, Always Connected</h2>
       <p className="pe">HealSync is a modern healthcare platform that keeps patients, families, and doctors connected.</p>
       </div>
 
@@ -191,58 +182,37 @@ const Dashboard = () => {
      
 
 
- <div>
-         <Card style={{ width: '63rem',height:"48rem",marginBottom:"40px",border:"none"}}>
-            <Card style={{ width: '57rem',height:"50rem",marginLeft:"45px",marginTop:"38px",boxShadow:"0 0 10px rgba(0, 123, 255, 0.5)"}}>
+<div>
+         <Card className="dc" >
+            <Card  className="ancard">
                 <div className="abouts">
                     <div>
-                        <h4 style={{fontWeight:"bold",color:"skyblue", paddingLeft:"200px" ,paddingBottom:"25px"}}> Smarter Care & Stronger Connections</h4>
-                        <Card style={{width:"50rem" ,fontSize:"16px",color:"brown",border:"none"}}>
+                        <h4 className="dh" > Smarter Care & Stronger Connections</h4>
+                        <Card className="dcc" >
                         
-                        <h4 style={{fontWeight:"bold",color:"skyblue"}}>Connect & Coordinate</h4>
+                        <h4 className="dabout" >Connect & Coordinate</h4>
                         <p>Securely link patients, families, and healthcare providers in one platform for better communication and updates.</p>
 
-                        <h4 style={{fontWeight:"bold",color:"skyblue"}}>Alerts & Reminders</h4>
+                        <h4 className="dabout" >Alerts & Reminders</h4>
                         <p>Send instant SOS alerts, appointment reminders, and medication notifications to the right people at the right time.</p>
-                        <h4 style={{fontWeight:"bold",color:"skyblue"}}> Resource & Support Hub</h4>
+                        <h4 className="dabout" > Resource & Support Hub</h4>
                         <p>Access trusted health guides, service referrals, and wellness tips to manage care confidently at home.</p>
-                        <h4  style={{fontWeight:"bold",color:"skyblue"}}>Care Connection</h4>
+                        <h4 className="dabout"  >Care Connection</h4>
                         <p>Keep patients, families, and providers connected in real time.</p>
-                        <h4  style={{fontWeight:"bold",color:"skyblue"}}>All-in-One Resource Center</h4>
+                        <h4  className="dabout" >All-in-One Resource Center</h4>
                         <p>Reliable guides, referrals, and tools for better care.</p>
-                        <h4  style={{fontWeight:"bold",color:"skyblue"}}>Smart Notifications </h4>
+                        <h4 className="dabout"  >Smart Notifications </h4>
                         <p> Instant SOS alerts, timely reminders, and important updates.</p>
-                        <h4  style={{fontWeight:"bold",color:"skyblue"}}> Home Care</h4>
+                        <h4 className="dabout" > Home Care</h4>
                         <p> In-home care allows your loved one to receive personalized support in the comfort of their own home.</p>
                         </Card>
                     </div>
-                   
-
-                </div>
-
-                        
-                       
-                
-            
+                </div>    
     </Card>
-      
-       
-        
-     
     </Card>
       </div>
 
-
-
-
-
-
-
-
-
-
-
-    <div style={{paddingTop:"50px"}}>
+    <div className="carouseldiv" >
       <Carousel data-bs-theme="dark">
       <Carousel.Item>
         <img
@@ -251,8 +221,8 @@ const Dashboard = () => {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h5 style={{fontSize:"2rem",fontWeight:"bold",color:"#EAEBD0",paddingBottom:"20px"}}>Heal Sync</h5>
-          <p style={{ color:"brown"}}>HealSync is an all-in-one digital health solution that simplifies patient care and communication. It enables users to manage appointments, receive timely medication alerts, send instant SOS notifications to family members, and access a comprehensive health resource center. With its user-friendly interface and real-time updates, HealSync bridges the gap between patients, families, and healthcare providers, ensuring safety, convenience, and better health management anytime, anywhere.</p>
+          <h5 className="carouselh">Heal Sync</h5>
+          <p className="carouselp">HealSync is an all-in-one digital health solution that simplifies patient care and communication. It enables users to manage appointments, receive timely medication alerts, send instant SOS notifications to family members, and access a comprehensive health resource center. With its user-friendly interface and real-time updates, HealSync bridges the gap between patients, families, and healthcare providers, ensuring safety, convenience, and better health management anytime, anywhere.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -262,8 +232,8 @@ const Dashboard = () => {
           alt="Second slide"
         />
         <Carousel.Caption>
-          <h5 style={{fontSize:"2rem",fontWeight:"bold",color:"#EAEBD0",paddingBottom:"20px" }}>Heal Sync</h5>
-          <p style={{ color:"brown"}}>HealSync is a modern healthcare companion that keeps patients and their loved ones connected and informed. From scheduling appointments and tracking medications to sending urgent SOS alerts in emergencies, it ensures care is always within reach. Its built-in resource center provides reliable health information, making it easier to stay informed and take proactive steps toward better well-being. HealSync brings care, safety, and information together in one seamless platform.</p>
+          <h5 className="carouselh">Heal Sync</h5>
+          <p className="carouselp" >HealSync is a modern healthcare companion that keeps patients and their loved ones connected and informed. From scheduling appointments and tracking medications to sending urgent SOS alerts in emergencies, it ensures care is always within reach. Its built-in resource center provides reliable health information, making it easier to stay informed and take proactive steps toward better well-being. HealSync brings care, safety, and information together in one seamless platform.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -273,68 +243,28 @@ const Dashboard = () => {
           alt="Third slide"
         />
         <Carousel.Caption>
-          <h5 style={{fontSize:"2rem",fontWeight:"bold",color:"#EAEBD0",paddingBottom:"20px"}}>Heal Sync</h5>
-          <p style={{ color:"brown"}}>
+          <h5 className="carouselh">Heal Sync</h5>
+          <p className="carouselp" >
            HealSync is a smart healthcare management platform designed to connect patients, family members, and healthcare providers in real time. It offers features like appointment scheduling, medication reminders, SOS emergency alerts, and a resource center for health-related information.By streamlining communication and providing timely notifications, HealSync helps ensure better care, quick responses in emergencies, and improved health outcomes all in one easy-to-use system
           </p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
     </div>
-
-  
+    <div className="bottom">
+       <h2 className="bottomh">Heal Sync</h2>
     
-
-
-
-    
-
- 
-
-
-
-
-
-  
-  <div className="bottom">
-       <h2 style={{marginBottom:"20px",marginLeft:"50px",color:"brown"}}>Heal Sync</h2>
-    
-      <p style={{paddingLeft:"400px",fontSize:"20px" ,paddingTop:"5px" ,color:"brown"}}>Home</p>
-      <p   href="/" style={{fontSize:"20px",paddingTop:"5px",color:"brown"}}>About</p>
-      <p  style={{fontSize:"20px",paddingTop:"5px",color:"brown"}}>Advantages</p>
-      <p  style={{fontSize:"20px",paddingTop:"5px",color:"brown"}}>Login</p>
+      <a href="/" className="bottoma1" >Home</a>
+      <a href="/benefits" className="bottoma2">About</a>
+      <a href="/advantage" className="bottoma3">Advantages</a>
+      <a href="/login" className="bottom4">Login</a>
    
       
     </div>
-
-
-
-
     <div className="bar">
     <p>© Created by</p>
     <p>All rights Reserved</p>
-   </div>
-
-
-
-
-
-   
-      
-    
-   
-
-
-
-
-
-
-
-
-
-
-       
-      
+   </div> 
     </>
   )
 }
